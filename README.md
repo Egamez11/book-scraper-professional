@@ -42,3 +42,13 @@ Si deseas probar el script localmente, sigue estos pasos:
    ```bash
    git clone [https://github.com/Egamez11/book-scraper-professional.git](https://github.com/Egamez11/book-scraper-professional.git)
    cd book-scraper-professional
+
+2. **Crear y activar un entorno virtual:**
+   python -m venv .venv
+   .venv\Scripts\activate
+
+3. **Instalar Dependencias:**
+   pip install -r requirements.txt
+
+4. **Ejecutar Scraper:**
+   python scraper_libros.py
